@@ -1,0 +1,85 @@
+.header {
+  width: 100%;
+  background: #fff;
+}
+
+.header_top {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  /* Выстраивает всё в ряд */
+  align-items: center;
+  /* Центрирует по вертикали */
+  justify-content: space-between;
+  /* Раскидывает элементы по краям */
+  padding: 20px;
+}
+
+.header_search {
+  position: relative;
+  flex: 0 1 300px;
+  /* Размер поиска */
+}
+
+.header_search input {
+  width: 100%;
+  padding: 10px 10px 10px 40px;
+  background: #f5f5f5;
+  border: none;
+  border-radius: 8px;
+}
+
+.header_search span {
+  position: absolute;
+  left: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  color: #999;
+}
+
+.header_nav {
+  display: flex;
+  gap: 30px;
+  /* Расстояние между ссылками */
+}
+
+.header_nav a {
+  text-decoration: none;
+  color: #909090;
+  font-weight: 500;
+}
+
+.header_buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.header_buttons img {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+
+/* Стили черной панели */
+.category_bar {
+  background: #2e2e2e;
+  padding: 15px 0;
+}
+
+.category_content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.cat_item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: rgba(255, 255, 255, 0.5);
+  /* Полупрозрачный белый */
+  font-size: 14px;
+}
